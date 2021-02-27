@@ -7,7 +7,8 @@
 `java -javaagent:opentelemetry-javaagent-all.jar -Dotel.exporter=zipkin -Dotel.exporter.zipkin.service.name=sleuth-application-otel-agent -Dotel.exporter.zipkin.endpoint=http://127.0.0.1:9411/api/v2/spans -jar target/messaging-spring-sleuth-0.0.1-SNAPSHOT.jar`
 
 4. go to browser and hit url http://localhost:8080/xform
-5. search for trace here http://localhost:9411/zipkin/
+ * "HELLO" response
+6. search for trace here http://localhost:9411/zipkin/
 
 **Observation:** 
 
