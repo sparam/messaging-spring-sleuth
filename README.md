@@ -9,5 +9,18 @@
 4. go to browser and hit url http://localhost:8080/xform
 5. search for trace here http://localhost:9411/zipkin/
 
-**Observation:** Only http spans by java agent is generated. No sleuth spans
+**Observation:** 
+
+with Otel Java angent:
+
+Only http spans by java agent is generated. No sleuth spans
+
+<img width="1677" alt="Screen Shot 2021-02-26 at 4 17 15 PM" src="https://user-images.githubusercontent.com/1302580/109368482-1cbf1880-784e-11eb-9573-e255bfee7095.png">
+
+
+FYI:
+
+with sleuth/otel:
+
+![XA ENGLISH](https://user-images.githubusercontent.com/1302580/109368402-d36ec900-784d-11eb-8f6e-715e9322a423.png)
 
