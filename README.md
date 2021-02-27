@@ -20,7 +20,6 @@ Only http spans by java agent is generated. No sleuth spans
 
 FYI:
 
-with sleuth/otel:
-
+with sleuth/otel more spans are generated.
 ![XA ENGLISH](https://user-images.githubusercontent.com/1302580/109368402-d36ec900-784d-11eb-8f6e-715e9322a423.png)
 
